@@ -21,19 +21,19 @@ local DarkShop = {
 
         onSelected = function(self, _, btn, CMenu, menuData, currentButton, currentSlt, result)
               if btn.name == "Graine de Weed" then
-                    TriggerServerEvent('KrXSuperette:buy', 40, "graine", "Graine de Weed")
+                    TriggerServerEvent('KrXDarkShop:buy', 40, "graine", "Graine de Weed")
               elseif btn.name == "Truelle" then
-                    TriggerServerEvent('KrXSuperette:buy', 1750, "truele", "Truelle")
+                    TriggerServerEvent('KrXDarkShop:buy', 1750, "truele", "Truelle")
               elseif btn.name == "Forceur de Serrure" then
-                    TriggerServerEvent('KrXSuperette:buy', 2450, "lockpick", "Forceur de Serrure")
+                    TriggerServerEvent('KrXDarkShop:buy', 2450, "lockpick", "Forceur de Serrure")
               elseif btn.name == "Gilet par Balle Type - 1" then
-                    TriggerServerEvent('KrXSuperette:buy', 1550, "bulletproof", "Gilet par Balle Type - 1")
+                    TriggerServerEvent('KrXDarkShop:buy', 1550, "bulletproof", "Gilet par Balle Type - 1")
               elseif btn.name == "Gilet par Balle Type - 2" then
-                    TriggerServerEvent('KrXSuperette:buy', 1850, "bullet2", "Gilet par Balle Type - 2")
+                    TriggerServerEvent('KrXDarkShop:buy', 1850, "bullet2", "Gilet par Balle Type - 2")
               elseif btn.name == "Gilet par Balle Type - 3" then
-                    TriggerServerEvent('KrXSuperette:buy', 2150, "bullet3", "Gilet par Balle Type - 3")
+                    TriggerServerEvent('KrXDarkShop:buy', 2150, "bullet3", "Gilet par Balle Type - 3")
               elseif btn.name == "Combinaison Hazmat Noir" then
-                    TriggerServerEvent('KrXSuperette:buy', 1150, "hazmat1", "Combinaison Hazmat Noir")
+                    TriggerServerEvent('KrXDarkShop:buy', 1150, "hazmat1", "Combinaison Hazmat Noir")
 
 
 
